@@ -24,7 +24,15 @@ const Footer: NextPage = () => {
           </a>
         </li>
 
-        <li>Resume</li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1hso4hqPkftXyaphh2XrLyFc8XxuOU9Wy/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
         <li>
           <Link href="/about">
             <a>About</a>
