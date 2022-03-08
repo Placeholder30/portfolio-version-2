@@ -1,0 +1,55 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 4.3rem;
+  margin: 4rem 0 4rem 5rem;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem auto 0;
+  width: 100%;
+}
+
+/*card*/
+
+.card {
+  border: 1px solid #b2b09b;
+  max-width: 30rem;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ff6f59;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    word-spacing: 1px;
+    text-align: justify;
+    height: 21rem;
+  }
+
+  ul {
+    margin-top: 1rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  li {
+    width: 6.3rem;
+    border: 1px solid #ff6f59;
+    padding: 0.4rem;
+    font-size: 1.3rem;
+  }
+}

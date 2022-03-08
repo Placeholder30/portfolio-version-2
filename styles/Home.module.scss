@@ -1,34 +1,8 @@
-.container {
-  min-height: 94vh;
-  position: relative;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 2rem;
-}
-
-.contact {
-  border: 1px solid #ff6f59;
-  width: 14rem;
-  padding: 1rem;
-  text-align: center;
-  color: #ff6f59;
-  &:hover {
-    cursor: pointer;
-    color: white;
-    border: 1px solid white;
-  }
-}
-
 .hello {
   letter-spacing: 2px;
 }
 .main {
-  margin: 28vh auto 0;
-
+  margin: 24vh auto 0;
   width: 45vw;
 
   div {
@@ -45,6 +19,7 @@
     font-size: 1.8rem;
     line-height: 3rem;
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
   }
   span {
     color: #ff6f59;
@@ -64,30 +39,6 @@
     cursor: pointer;
     color: white;
     border: 1px solid white;
-  }
-}
-.footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-
-  color: #ff6f59;
-  background-color: #254441;
-
-  ul {
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-  }
-  li {
-    width: 6.5rem;
-    font-size: 1.7rem;
-    text-align: center;
-  }
-  li:hover {
-    cursor: pointer;
-    color: white;
   }
 }
 
@@ -117,8 +68,5 @@
     p {
       line-height: 3rem;
     }
-  }
-  .footer {
-    font-size: 1.3rem;
   }
 }
