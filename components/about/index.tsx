@@ -5,12 +5,13 @@ const About: NextPage = () => {
     <div className={styles.container}>
       <h1>About Me!</h1>
       <p>
-        I&rsquo;ve always been a fan of tech, I used to fiddle with my android
-        devices when I was younger and install custom OS&rsquo;s I found on XDA,
-        but I had to go the long way around to get to software developement. I
-        studied Quantity Surveying in Uni and found myself in the civil service.
-        After a couple of years, I quickly became bored with the unchallenging
-        nature of work there, so i decided to learn how to code.
+        I&rsquo;ve always been a fan of tech, I used to play around with my
+        android devices when I was younger and install custom OS&rsquo;s I found
+        on XDA. But I had to go the long way around to get to software
+        developement. I studied Quantity Surveying in Uni and found myself in
+        the civil service. After a couple of years, I quickly became bored with
+        the unchallenging nature of work there, so i decided to learn how to
+        code.
       </p>
 
       <p>
