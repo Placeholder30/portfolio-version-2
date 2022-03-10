@@ -53,3 +53,11 @@
     font-size: 1.3rem;
   }
 }
+
+@media screen and (max-width: 752px) {
+  .heading {
+    font-size: 3.8rem;
+    margin-left: 0;
+    text-align: center;
+  }
+}
