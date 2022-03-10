@@ -4,7 +4,8 @@
 }
 .heading {
   font-size: 4.3rem;
-  margin: 4rem 0 4rem 5rem;
+  margin: 4rem 0 4rem 0;
+  text-align: center;
 }
 
 .project {
@@ -54,10 +55,8 @@
   }
 }
 
-@media screen and (max-width: 752px) {
+@media screen and (max-width: 473px) {
   .heading {
-    font-size: 3.8rem;
-    margin-left: 0;
-    text-align: center;
+    font-size: 3rem;
   }
 }

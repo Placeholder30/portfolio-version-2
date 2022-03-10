@@ -14,7 +14,7 @@ type project = {
 const Work: NextPage = () => {
   return (
     <section className={styles.container}>
-      <h1 className={styles.heading}>Featured</h1>
+      <h1 className={styles.heading}>Featured Projects</h1>
 
       <div className={styles.project}>
         {projects.map((project, i) => (
